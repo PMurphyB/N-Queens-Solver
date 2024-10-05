@@ -22,7 +22,7 @@ def main() :
         userChoice = input("Enter 'Q' to quit: ")
         print()
         
-        if userChoice == "Q" :
+        if userChoice == "Q" or "q" :
             active = False
             print("Thank you for playing!")
             
