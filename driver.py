@@ -22,7 +22,7 @@ def main() :
         userChoice = input("Enter 'Q' to quit: ")
         print()
         
-        if userChoice == "Q" or "q" :
+        if (userChoice == "Q") or (userChoice == "q") :
             active = False
             print("Thank you for playing!")
             
@@ -32,6 +32,8 @@ def main() :
             userChoice = input(print("Enter 'Q' to quit: "))      
             print()
             
+            
+        # Add try except statement
         else :
             
             myBoard.setSize(int(userChoice))
